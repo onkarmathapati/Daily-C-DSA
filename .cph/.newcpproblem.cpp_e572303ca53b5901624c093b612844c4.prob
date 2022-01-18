@@ -1,0 +1,1 @@
+{"name":"Local: newcpproblem","url":"f:\\Complete-DSA\\newcpproblem.cpp","tests":[{"id":1638594975968,"input":"2\nA B C\nA B\nB C A\nA C","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\Complete-DSA\\newcpproblem.cpp","group":"local","local":true}
