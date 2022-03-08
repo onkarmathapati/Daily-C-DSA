@@ -24,7 +24,7 @@ int main()
                     {
                               cout << x << endl;
                     }
-                    else if (x == second && y == third)
+                    else if (x == second && y == third)   
                     {
                               cout << x << endl;
                     }
