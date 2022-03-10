@@ -3,7 +3,7 @@ using namespace std;
 
 int main() {
           int n1=0, n2=1, n3, i, n;
-          cout<<"enter the number of elements";
+          cout<<"enter the number of elements";   
           cin>>n;
 
           cout<<n1<<" "<<n2<<" ";
