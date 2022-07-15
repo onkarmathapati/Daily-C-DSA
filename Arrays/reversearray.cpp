@@ -3,29 +3,29 @@ using namespace std;
 
 int main()
 {
+ int n;
+        cin>>n;
 
-          int n;
-          cin >> n;
+        int arr[n];
+        for(int i = 0; i < n; i++){
+          cin>>arr[i];
+        }
 
-          int a[n];
-          for (int i = 0; i < n; i++)
-          {
-                    cin >> a[i];
-          }
-          int start = 0;
-          int end = n - 1;
-          while (start <= end)
-          {
-                    swap(a[start], a[end]);
-                    start++;
-                    end--;
-          }
+        int start = 0;
+        int end = n-1;
+        
 
-          cout << "after reverse" << endl;
-          for (int i = 0; i < n; i++)
-          {
-                    cout << a[i] << endl;
-          }
+        while(start<=end){
+          swap(arr[start], arr[end]);
+          start++;
+          end--;
+        }
+
+        for(int i=0; i < n; i++){
+          cout<<arr[i]<<endl;
+        }
+
+          
 
           return 0;
 }
